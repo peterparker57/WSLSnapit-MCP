@@ -1,0 +1,36 @@
+{
+  "name": "wslsnapit-mcp",
+  "version": "2.2.0",
+  "description": "Advanced screenshot capture and clipboard reading MCP server for Windows applications from WSL environments",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "screenshot",
+    "windows",
+    "wsl",
+    "claude",
+    "ai",
+    "clipboard"
+  ],
+  "author": "WSLSnapit Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "sharp": "^0.34.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "homepage": "https://github.com/peterparker55/WSLSnapit-MCP#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterparker55/WSLSnapit-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peterparker55/WSLSnapit-MCP/issues"
+  }
+}
